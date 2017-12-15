@@ -1,0 +1,12 @@
+{
+  "presets": [["es2015", {"modules": false}], "react"],
+  "plugins": ["react-html-attrs"], //添加组件的插件配置
+  "env": {
+    "test": {
+      "presets": [["es2015"], "react"]
+    }, 
+    "development": {
+      "presets": ["react-hmre"]
+    }
+  }
+}
